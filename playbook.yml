@@ -1,6 +1,6 @@
 ---
 - name: create a windows user
-  hosts: win
+  hosts: my_winventory
   tasks: 
     - name: create windows users
       win_user:
